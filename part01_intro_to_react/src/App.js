@@ -7,6 +7,13 @@ const Button = ({ handleClick, text }) => (
 )
 
 const Statistics = ({ goodStats, neutralStats, badStats, allStats }) => {
+  if(allStats === 0){
+    return (
+      <div>
+        press a button to show stats
+      </div>
+    )
+  }
   return (
     <>
       <div>good {goodStats}</div>
