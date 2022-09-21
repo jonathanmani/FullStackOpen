@@ -1,10 +1,9 @@
 import React from 'react'
-import Content from './Content'
 
-const Header = ({course}) => {
+const Header = ({courseName}) => {
     return(
         <h1>
-            <Content course ={course.name} />
+            {courseName}
         </h1>
     )
 }

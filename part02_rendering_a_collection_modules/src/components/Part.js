@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Part({course}) {
+function Part({partName, exercises}) {
   return (
-    <div>{course.parts}</div>
+    <li>{partName} {exercises}</li>
   )
 }
 
