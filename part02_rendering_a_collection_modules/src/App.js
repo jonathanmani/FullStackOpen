@@ -1,6 +1,7 @@
 import Note from './components/Note'
 
 const App = ({ notes }) => {
+  console.log('...App Works')
   return (
     <div>
       <h1>Notes</h1>
